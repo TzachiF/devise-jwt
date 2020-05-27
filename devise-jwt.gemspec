@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'devise', '~> 2.2.5'
-  spec.add_dependency 'warden-jwt_auth', '0.4'
+  spec.add_dependency 'warden-jwt_auth', '0.1.3'
 
   spec.add_development_dependency "bundler", "> 1"
   spec.add_development_dependency "rake", "~> 12.3"
